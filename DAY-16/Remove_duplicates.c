@@ -18,11 +18,8 @@ int main(){
         for(int j=0 ;j<i ;j++)
         {
             if(arr[i]==arr[j])
-            {   for(int k=i ;k<n ;k++)
-                 {  
-                    temp=1;
-                    break;
-                 }
+            {   temp=1;
+                break;
             }
         }
         if(temp==0)
